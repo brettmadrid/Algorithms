@@ -3,6 +3,8 @@
 import argparse
 import math
 
+# [1050, 270, 1540, 3800, 2]
+
 
 def find_max_profit(prices):
     # stores the highest profit, start with neg infinity to account for neg calculated profit
