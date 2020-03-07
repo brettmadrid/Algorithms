@@ -6,6 +6,20 @@ from functools import lru_cache
 # a solution that is more efficient than the naive
 # recursive solution
 
+'''
+0:1
+1:1
+2:2
+3:4
+4:7
+5:13
+6:24
+7:44
+8:81
+9:149
+10:274
+'''
+
 
 @lru_cache(maxsize=500)
 def eating_cookies(n, cache=None):
